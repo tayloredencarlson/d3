@@ -16,3 +16,4 @@ module.exports = require("./d3");
 if ("d3" in globals) global.d3 = globals.d3; else delete global.d3;
 if ("window" in globals) global.window = globals.window; else delete global.window;
 if ("document" in globals) global.document = globals.document; else delete global.document;
+
